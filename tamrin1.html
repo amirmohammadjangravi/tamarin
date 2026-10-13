@@ -1,0 +1,35 @@
+
+<html>
+<body>
+
+<h3>فرم ثبت نام</h3>
+
+نام: <input id="a"><br>
+نام خانوادگی: <input id="b"><br>
+سن: <input id="c"><br>
+ایمیل: <input id="d"><br>
+
+جنسیت:
+<select id="e">
+<option>آقا</option>
+<option>خانم</option>
+</select><br><br>
+
+<button onclick="sab()">ثبت نام</button>
+
+<p id="natije"></p>
+
+<script>
+function sab() {
+document.getElementById("natije").innerHTML =
+"ثبت نام موفق بود!<br>" +
+"نام: " + a.value + "<br>" +
+"نام خانوادگی: " + b.value + "<br>" +
+"سن: " + c.value + "<br>" +
+"ایمیل: " + d.value + "<br>" +
+"جنسیت: " + e.value;
+}
+</script>
+
+</body>
+</html>
