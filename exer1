@@ -1,0 +1,12 @@
+<?php
+
+$product = [
+    "id" => 101,
+    "title" => "Laptop",
+    "price" => 35000000
+];
+
+echo "Product Title: " . $product["title"] . "<br>";
+echo "Product Price: " . $product["price"];
+
+?>
