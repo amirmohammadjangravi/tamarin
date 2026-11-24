@@ -1,0 +1,13 @@
+<?php
+
+$student = [
+    "name" => "Amir Mohammad",
+    "age" => 20,
+    "major" => "Computer Engineering"
+];
+
+foreach ($student as $key => $value) {
+    echo $key . " : " . $value . "<br>";
+}
+
+?>
